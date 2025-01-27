@@ -21,6 +21,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ["Manrope", "serif"]
                     }
                 }
             }
@@ -29,7 +32,7 @@
 
 </head>
 
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-lg mx-auto px-16 lg:px-28">
         <!-- header section -->
         <header class="md:flex text-center md:text-left mx-auto pt-10 mb-20 items-center">
@@ -271,14 +274,76 @@
                     </p>
                     <button class="text-[#1C1C1C] mt-2  text-base font-bold">Learn More</button>
                 </div>
-
             </div>
         </section>
-
-
     </main>
-    <footer>
+    <footer class="bg-orange-100   text-gray-700 py-10 px-4 md:px-16">
+        <div class="  w-3/4 mx-auto ">
+            <!-- logo -->
+            <div class="flex    justify-between mb-8 gap-4">
+                <img class="mb-8  " src="images/cup.png" alt="">
+                <div class="flex items-center gap-0 lg:gap-6">
+                    <h4>Ready to get started</h4>
+                    <button
+                        class="bg-gradient-to-r from-orange-500 to-red-500 px-5 lg:py-3 rounded-lg text-white font-bold">Get
+                        Started</button>
+                </div>
+            </div>
+            <!-- links -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="mb-5">
+                    <h3 class="font-semibold mb-5">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:text-orange-600"><a href="#"></a>Home</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>About Us</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>Insurance</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>Privacy </li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h3 class="font-semibold mb-5">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:text-orange-600"><a href="#"></a>Life insurance</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>Car insurance</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>Health insurance</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>Home insurance</li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h3 class="font-semibold mb-5">Help</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:text-orange-600"><a href="#"></a>Help</li>
+                        <li class="hover:text-orange-600"><a href="#"></a>Contact Us</li>
 
+                    </ul>
+                </div>
+                <!-- fourth coloum -->
+
+                <div>
+                    <h3 class="font-semibold text-xl mb-3">Subscribe to our newsletter</h3>
+                    <div class="flex flex-col space-y-2">
+                        <div>
+                            <input type="text" placeholder="Email address"
+                                class="bg-transparent p-3 border-b-2 border-black ">
+                            <i
+                                class="fa-solid fa-greater-than text-white bg-orange-500 hover:bg-green-500 p-3 justify-center items-center inline-block rounded-full"></i>
+
+                        </div>
+
+                    </div>
+                    <div class="flex justify-center text-lg w-3/5 mb-2 mt-8 gap-3 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-8">
+                <small>© 2027 UIDesign.to - All rights reserved.</small>
+            </div>
+
+        </div>
     </footer>
 </body>
 
